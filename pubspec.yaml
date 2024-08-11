@@ -1,0 +1,94 @@
+name: baqala
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Utility Packages
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+
+  #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  #State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # fl_country_code_picker: ^0.1.5
+  # flutter_rating_bar: ^4.0.1
+  # get: ^4.6.5
+  # http: ^1.1.0
+  # shared_preferences: ^2.2.0
+  # intl: ^0.19.0
+  # flutter_timezone: ^1.0.6
+  # flutter_easyloading: ^3.0.5
+  # cached_network_image: ^3.2.3
+  # image_picker: ^1.0.5
+  # flutter_datetime_picker_plus: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/font/
+    - assets/icons/brands/
+    - assets/img/
+    - assets/logos/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/font/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/font/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/font/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Poppins/Poppins-Bold.ttf
+          weight: 800
+
+    # - family: HKGrotesk
+    #   fonts:
+    #     - asset: assets/font/HKGrotesk-Regular.otf
+    #     - asset: assets/font/HKGrotesk-Bold.otf
+    #       weight: 700
+    # - family: Gilroy
+    #   fonts:
+    #     - asset: assets/font/Gilroy-Regular.ttf
+    #     - asset: assets/font/Gilroy-Medium.ttf
+    #       weight: 500
+    #     - asset: assets/font/Gilroy-SemiBold.ttf
+    #       weight: 600
+    #     - asset: assets/font/Gilroy-Bold.ttf
+    #       weight: 700
+    # - family: Airbnb Cereald
+    #   fonts:
+    #     - asset: assets/font/Airbnb-Cereald-Medium.otf
+    # - family: Sveningsson
+    #   fonts:
+    #     - asset: assets/font/Sveningsson.ttf
